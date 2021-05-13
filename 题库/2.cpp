@@ -97,7 +97,7 @@ void printList(struct ListNode* r){
 	}
 }
 
-void main(){
+int main(){
 	struct ListNode* n1 = (struct ListNode*)malloc(sizeof(struct ListNode));
 	n1->val=2;
 	struct ListNode* n2 = (struct ListNode*)malloc(sizeof(struct ListNode));
@@ -122,4 +122,7 @@ void main(){
 
 	struct ListNode* r=addTwoNumbers(n1, n4);
 	printList(r);
+
+
+	return 0;
 }
